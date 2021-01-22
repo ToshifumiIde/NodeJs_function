@@ -22,13 +22,16 @@
 
   const parent = function(){
     console.log("parent() is called");
+    let a = "a is local";
     child();
     console.log("parent() is executed");
   };
 
+  let a = "a is global"
   const child = function(){
     console.log("child() is called");
     console.log("child() is executed");
+    console.log(`「${a}」 is called 定義時のスコープを参照している`);
   };
 
   parent();

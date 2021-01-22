@@ -1,0 +1,14 @@
+{
+  "name": "npmdir",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Toshifumi",
+  "license": "ISC",
+  "dependencies": {
+    "cool-ascii-faces": "^1.0.0"
+  }
+}
